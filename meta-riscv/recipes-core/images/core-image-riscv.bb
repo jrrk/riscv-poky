@@ -15,11 +15,11 @@ IMAGE_INSTALL += "apt libffi libffi-dev"
 IMAGE_INSTALL += "python-numpy python-subprocess python-ctypes python-html python-netserver python-compile"
 
 # Basic toolchain on target
-#IMAGE_INSTALL += "gcc binutils glibc glibc-dev libgcc libgcc-dev libstdc++ libstdc++-dev"
+IMAGE_INSTALL += "gcc binutils glibc glibc-dev libgcc libgcc-dev libstdc++ libstdc++-dev rsync git e2fsprogs ssh dropbear"
 
 IMAGE_LINGUAS = " "
 
 LICENSE = "MIT"
 
-IMAGE_ROOTFS_SIZE ?= "8192"
+IMAGE_ROOTFS_SIZE ?= "65536"
 

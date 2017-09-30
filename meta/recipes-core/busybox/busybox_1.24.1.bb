@@ -46,6 +46,7 @@ SRC_URI = "http://www.busybox.net/downloads/busybox-${PV}.tar.bz2;name=tarball \
            file://rcS \
            file://rcK \
            file://runlevel \
+	   file://enable-telnetd.cfg \
 "
 SRC_URI_append_libc-musl = " file://musl.cfg "
 
