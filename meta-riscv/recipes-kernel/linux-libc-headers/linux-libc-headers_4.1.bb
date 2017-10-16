@@ -4,7 +4,7 @@ require recipes-kernel/linux-libc-headers/linux-libc-headers.inc
 
 S = "${WORKDIR}/linux-4.6.2"
 
-SRC_URI = "git://github.com/lowrisc/riscv-linux.git;branch=eth_debug;destsuffix=${S} \
+SRC_URI = "git://github.com/lowrisc/riscv-linux.git;branch=ethernet-v0.5;destsuffix=${S} \
            https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.6.2.tar.xz;name=kernel"
 
 SRC_URI[kernel.md5sum] = "70c4571bfb7ce7ccb14ff43b50165d43"
